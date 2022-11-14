@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    color: aliceblue;
+}
+
+body{
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    font-size: 100px;
+    color: black;
+    text-align: center;
+    text-shadow: black 1px 0 10px;
+}
+
+nav{
+    width: 100%;
+    background-color: coral;
+    position: sticky;
+    top: 0;
+}
+
+.menu{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.menu_item{
+    display: inline;
+    margin: 0 10px;
+}
+
+.menu_item:nth-child(3){
+    float: right;
+}
+
+.menu_item:nth-child(4){
+    float: right;
+}
+
+a.menu_item_link {
+    font-size: 20px;
+    line-height: 60px;
+    color: white;
+}
+
+.container{
+    height: 300px;
+    display: grid;
+    width: 80%;
+    margin: 10px auto;
+
+}
+
+.container .up{
+    border: 2px solid black;
+
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-size: 70px;
+}
+p{
+    color: black;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container .down{
+    border: 2px solid black;
+
+}
+
+footer{
+    width: 100%;
+    background-color: lightpink;
+    padding: 10px auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.footer{
+    padding: 10px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-template-rows: 100px 50px;
+    width: 80%;
+    margin: 10px auto;
+    grid-gap: 10px;
+}
+
+footer .center, footer .left, footer .right{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.social-icons {
+    text-align: center;
+}
+.social-icons li {
+    display:inline-block;
+    list-style-type:none;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+}
+.social-icons li a {
+    border-bottom: none;
+}
+.social-icons li img {
+    width:90px;
+    height:70px;
+    margin-right: 20px;
+}
+
